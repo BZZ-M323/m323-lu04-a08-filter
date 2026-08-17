@@ -1,3 +1,8 @@
+"""Filtere Wörter mit mehr als 5 Buchstaben.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/filter2
+"""
+
 def filter_long_words(words):
     """
     Filtert Wörter aus der gegebenen Liste, die mehr als 5 Zeichen lang sind.
@@ -11,6 +16,6 @@ def filter_long_words(words):
 
 
 if __name__ == '__main__':
-    words = ['apple', 'banana', 'cherry', 'date']
-    long_words = filter_long_words(words)
+    demo_words = ['apple', 'banana', 'cherry', 'date']
+    long_words = filter_long_words(demo_words)
     print(long_words)
